@@ -71,6 +71,23 @@ export default class Onboarding extends React.Component {
                   }}
                 />
               </Block>
+              <Block middle row style={{ marginTop: 15, marginBottom: 30}}>
+                <Text
+                  color="white"
+                  size={16}
+                  style={{ fontFamily: 'montserrat-regular' }}
+                >
+                  Coded by
+                </Text>
+                <Image
+                  source={Images.CreativeTimLogo}
+                  style={{
+                    height: 29,
+                    width: 129,
+                    marginLeft: theme.SIZES.BASE
+                  }}
+                />
+              </Block>
 
               <Block
                 row
