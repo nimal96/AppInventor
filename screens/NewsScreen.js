@@ -102,20 +102,6 @@ export default class NewsScreen extends React.Component {
             </Block>
           }
         />
-        <Block center style={styles.title}>
-          <Text style={{ fontFamily: 'montserrat-bold', paddingBottom: 5 }} size={theme.SIZES.BASE} color={nowTheme.COLORS.TEXT}>
-            Payment Settings
-          </Text>
-          <Text style={{ fontFamily: 'montserrat-regular' }} size={12} color={nowTheme.COLORS.CAPTION} color={nowTheme.COLORS.TEXT}>
-            These are also important settings
-          </Text>
-        </Block>
-
-        <FlatList
-          data={payment}
-          keyExtractor={(item, index) => item.id}
-          renderItem={this.renderItem}
-        />
 
         <Block center style={styles.title}>
           <Text style={{ fontFamily: 'montserrat-bold', paddingBottom: 5 }} size={theme.SIZES.BASE} color={nowTheme.COLORS.TEXT}>
